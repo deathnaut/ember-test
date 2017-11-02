@@ -5,6 +5,12 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-quickstart',
     environment,
+    firebase: {
+      apiKey: 'AIzaSyCYY70MYEu3XvSizqlZok5SkadZixm_WDc',
+      authDomain: 'emtasks-2ab8d.firebaseapp.com',
+      databaseURL: 'https://emtasks-2ab8d.firebaseio.com',
+      storageBucket: 'emtasks-2ab8d.appspot.com',
+    },
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
